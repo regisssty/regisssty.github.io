@@ -5,16 +5,37 @@
     </h1></center></header>
     <body>
         <div>
+            <marquee>
+                Website is still in early dev. Sorry the the empty feels :(
+            </marquee>
+        </div>
+        <div>
             <center>
-                <button id="AboutUs" class="float-left submit-button" >About Us</button>
-                <button id="Commands" class="float-left submit-button" >Commands</button>
-                <button id="Support" class="float-left submit-button" >Support</button>
+                <button id="main2">Home</button>
+                <button id="AboutUs">About Us</button>
+                <button id="Commands">Commands</button>
+                <button id="Support">Support</button>
+                <button id="invite">Invite Bot</button>
             </center>
+        </div>
+        <br><br><br>
+        <div>
+           <h2>
+               <center>Coming Soon!</center>
+           </h2>
+           <h3>
+            <center>Information "Support" is currently not avaliable. :(
+           </h3>
         </div>
     </body>
     
     <script type="text/javascript">
         document.getElementById("main").onclick = function () {
+            location.href = "index.html";
+        };
+    </script>
+    <script type="text/javascript">
+        document.getElementById("main2").onclick = function () {
             location.href = "index.html";
         };
     </script>
@@ -33,7 +54,11 @@
             location.href = "support.html";
         };
     </script>
+    <script type="text/javascript">
+        document.getElementById("invite").onclick = function () {
+            location.href = "https://discord.com/oauth2/authorize?client_id=435412862765367297&scope=bot&permissions=137442421825";
+        };
+    </script>
 
-    <body background="scr/img/pepejam.png"></body>
     <link rel="stylesheet" type="text/css" href="style/style.css" media="screen" />
 </html>

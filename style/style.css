@@ -25,4 +25,15 @@ table, th, td {
   #myBtn:hover {
     background-color: #555;
   }
+
+  marquee{
+    font-size: 25px;
+    font-weight: 800;
+    color: teal;
+    font-family: sans-serif;
+  }
+
+  marquee p {
+    white-space: nowrap;
+  }
   
