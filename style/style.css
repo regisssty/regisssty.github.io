@@ -9,7 +9,7 @@ table, th, td {
 #myBtn {
     display: none; 
     position: fixed;
-    bottom: 20px;
+    top: 20px;
     right: 30px; 
     z-index: 99; 
     border: none;
@@ -33,7 +33,4 @@ table, th, td {
     font-family: sans-serif;
   }
 
-  marquee p {
-    white-space: nowrap;
-  }
   
