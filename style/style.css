@@ -73,7 +73,8 @@ table, th, td {
   }
 
   .regis {
+    background-image: url('../scr/img/regis.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 50%;
   }
-
-  
