@@ -2,9 +2,15 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: lavender;
+    background-attachment: fixed;
 }
 table, th, td {
         border: 1px solid black;
+}
+table2, th, td {
+  border: none;
+  border-collapse: collapse;
+  background-color: tomato;
 }
 #myBtn {
     display: none; 
@@ -31,6 +37,19 @@ table, th, td {
     font-weight: 800;
     color: teal;
     font-family: sans-serif;
+  }
+
+  .button {
+    background-color: midnightblue;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
   }
 
   
