@@ -7,11 +7,13 @@ body {
 table, th, td {
         border: 1px solid black;
 }
+
 table2, th, td {
   border: none;
   border-collapse: collapse;
   background-color: tomato;
 }
+
 #myBtn {
     display: none; 
     position: fixed;
@@ -39,7 +41,7 @@ table2, th, td {
     font-family: sans-serif;
   }
 
-  .button {
+  button {
     background-color: midnightblue;
     border: none;
     color: white;
