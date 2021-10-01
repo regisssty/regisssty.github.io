@@ -1,7 +1,7 @@
 <html>
     <head>
-        <title>Reg - About Us</title>
-        <meta name="aboutus" content="width=device-width, initial-scale=1">
+        <title>Reg - FAQ</title>
+        <meta name="support" content="width=device-width, initial-scale=1">
         <link rel="icon" href="scr/img/pepejam.png" type="image/gif" size="16x16">
         <script type="text/javascript">
             var _smartsupp = _smartsupp || {};
@@ -36,40 +36,49 @@
         </div>
         <br><br><br>
         <div>
-            <center>
-                <table class="tablemain" style="width:50%">
-                    <tr>
-                        <td class="tdmain">
-                            <h2>
-                                <center>
-                                    About Us
-                                </center>
-                            </h2>
-                        </td>
-                    </tr>
-                </table>
-                <table class="tablemain" style="width:50%">
-                    <tr>
-                        <td class="tdmain">
-                            <img src="scr/img/regis.gif" alt="Regis_avatar" style="width:150px" class="regis">
-                        </td>
-                        <td class="tdmain"></td>
-                        <td class="tdmain"></td>
-                        <td class="tdmain"></td>
-                        <td class="tdmain"></td>
-                        <td class="tdmain">
-                            Hi, I'm Regis (Regis#7401). The creator of Reg.
-                Reg was created as a friend requested for it. Soon everyone enjoys and others start adding it to their personal servers.
-                Currently (28 Sep 2021), Reg is running on 9 servers with over 500 total members.
-                As of right now, Reg still have alot of potential
-                to grow and I would like to see how far I can push its limit.
-                Reg was programmed using Discord.js.
-                Music #1 using Discord-Player.
-                Music #2 using lavalink.
-                        </td>
-                    </tr>
-                </table>
-            </center>
+           <center>
+               <div>
+                   <center>
+                       <h2>❓Frequently Asked Questions❓</h2>
+                   </center>
+               </div>
+            <section class="faq-container">
+                <div class="faq-one">
+                    <!-- faq question -->
+                    <h1 class="faq-page">What is Reg's prefix?</h1>
+                    <!-- faq answer -->
+                    <div class="faq-body">
+                        <p>Reg's prefix is =</p>
+                    </div>
+                </div>
+                <hr class="hr-line">
+                <div class="faq-two">
+                    <!-- faq question -->
+                    <h1 class="faq-page">I dont like the current prefix. Can I change to something else?</h1>
+                    <!-- faq answer -->
+                    <div class="faq-body">
+                        <p>Yes! Reg's prefix are fully customizable but only your guild master/admin are able to do so. Commands to change prefix can be found in <a href="https://regisssty.github.io/commands.html">commands</a> section.</p>
+                    </div>
+                </div>
+                <hr class="hr-line">
+                <div class="faq-three">
+                    <!-- faq question -->
+    <h1 class="faq-page">I think the Reg is not working. Its not responding any commands listed.</h1>
+                    <!-- faq answer -->
+                    <div class="faq-body">
+                        <p>Please check if Reg is online <a href="https://regisssty.github.io/status.html">here</a> or if its online on discord.</p>
+                    </div>
+                </div>
+                <div class="faq-four">
+                    <!-- faq question -->
+    <h1 class="faq-page">I see some commands required premium. How do I get it?</h1>
+                    <!-- faq answer -->
+                    <div class="faq-body">
+                        <p>DM Reg. Afew of us use Reg DM to communicate regarding of issue they facing etc.</p>
+                    </div>
+                </div>
+            </section>
+           </center>
         </div>
     </body>
     
@@ -112,6 +121,25 @@
         document.getElementById("faq").onclick = function () {
             location.href = "faq.html";
         };
+    </script>
+
+    <script>
+var faq = document.getElementsByClassName("faq-page");
+var i;
+for (i = 0; i < faq.length; i++) {
+    faq[i].addEventListener("click", function () {
+        /* Toggle between adding and removing the "active" class,
+        to highlight the button that controls the panel */
+        this.classList.toggle("active");
+        /* Toggle between hiding and showing the active panel */
+        var body = this.nextElementSibling;
+        if (body.style.display === "block") {
+            body.style.display = "none";
+        } else {
+            body.style.display = "block";
+        }
+    });
+}
     </script>
 
     <link rel="stylesheet" type="text/css" href="style/style.css" media="screen" />
