@@ -83,6 +83,12 @@ table, th, td {
     background-size: cover;
     border-radius: 50%;
   }
+  .wc {
+    background-image: url('../scr/img/wc.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+  }
 
 body{
     font-family: 'Work Sans', sans-serif;
