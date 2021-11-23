@@ -5,6 +5,11 @@ body {
     background-attachment: fixed;
 }
 
+.login {
+  position: absolute;
+  right:auto;
+}
+
 table, th, td {
     border: 1px solid black;
     background-color: thistle;
@@ -23,6 +28,10 @@ table, th, td {
 
 .tablemain, .thmain, .tdmain {
   border: 0px solid black;
+  background-color: transparent;
+}
+.tablestore, .thstore, .tdstore {
+  border: 0px solid;
   background-color: transparent;
 }
 
@@ -149,4 +158,10 @@ flex-direction: column;
 .active:after {
     content: "\2796";
     /* Unicode character for "minus" sign (-) */
+}
+
+.footer {
+  font-size: small;
+  border: 0px solid;
+  background-color: transparent;
 }
