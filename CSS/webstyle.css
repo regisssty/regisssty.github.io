@@ -237,18 +237,4 @@ padding: auto;
 	margin: 5px 10px;
   }
 
-  .notify-badge{
-        position: relative;
-    	background: rgba(0,0,255,1);
-    	height:2rem;
-    	top:1rem;
-    	left:9rem;
-    	width:3.5rem;
-    	text-align: center;
-    	line-height: 2rem;;
-    	font-size: 0.7rem;
-    	border-radius: 50%;
-    	color:white;
-    	border:1px solid blue;
-  }
 
