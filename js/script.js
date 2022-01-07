@@ -8,7 +8,7 @@ let secondsE = document.getElementById("seconds");
 function countdown(){
 
 	let date = new Date();
-	let newyearString = "1 jan "+(date.getFullYear() + 1)+"";
+	let newyearString = "10 jan "+(date.getFullYear() + 1)+"";
 	let newyear = new Date(newyearString);
 	let currentDate = new Date();
 	newyearE.innerHTML = date.getFullYear() + 1;
