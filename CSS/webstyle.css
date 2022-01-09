@@ -4,8 +4,8 @@ body {
 	/* background: #5da7fc; */
 	background-image: url("https://regisssty.github.io/scr/img/web_bg.png");
 	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
+	background-attachment: fixed;
+	height: 100%;
 	font-family: "Roboto", sans-serif;
 }
 
