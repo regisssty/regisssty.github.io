@@ -9,6 +9,13 @@ body {
 	font-family: "Roboto", sans-serif;
 }
 
+.logo {
+	text-align: center;
+	display: block;
+	object-fit: scale-down;
+	size: 50%;
+}
+
 #myBtn {
     display: none; 
     position: fixed;
