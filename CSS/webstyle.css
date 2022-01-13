@@ -411,12 +411,14 @@ body {
 	margin-bottom: 30px;
 }
 #accordion .accordion-card__header {
-	background: transparent;
+	background: whitesmoke;
 	cursor: pointer;
 	margin-bottom: 15px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	border-radius: 5px;
+	box-shadow: 0 2px 25px -3px rgba(0, 0, 0, 0.1);
 }
 #accordion .accordion-card__header.collapsed .drop-icon {
 	transform: rotate(0deg);
@@ -663,3 +665,5 @@ body {
 .btn-google:focus {
 	color: #fff;
 }
+
+/* nav */
